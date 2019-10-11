@@ -1,0 +1,140 @@
+body {
+  background-image: url(https://wallpaperbro.com/img/625312.jpg);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: gray;
+  margin: 0;
+  text-justify: auto;
+  line-height: 28px;
+}
+
+.topnav {
+  background-color: white;
+  overflow: hidden;
+  width: 100%;
+  border-bottom: 1px solid;
+  border-color: rgb(209, 209, 209);
+}
+
+h2 {
+  color: darkcyan;
+}
+
+.topnav h2 {
+  float: left;
+  background-color: darkcyan;
+  text-align: center;
+  color: white;
+  padding: 16px;
+  width: 200px;
+  margin: 0;
+}
+
+.topnav a {
+  float: right;
+  color: gray;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 16px;
+}
+
+.topnav a:hover {
+  color: black;
+}
+
+#content {
+  width: 800px;
+  height: 500px;
+  margin: auto;
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 70px;
+  padding: 20px;
+  padding-bottom: 40px;
+}
+img {
+  float: left;
+  display: block;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+/* p {
+    display: block;
+    margin: 25px;
+} */
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  background-color: #333;
+  width: 100%;
+  float: none;
+  text-align: center;
+  color: white;
+  border-top: 3px solid;
+  border-color: darkcyan;
+}
+
+#name {
+  margin-left: 20%;
+}
+
+.nav-text {
+  margin-right: 20%;
+}
+
+.buttons {
+  background-color: darkcyan;
+  color: white;
+  font-size: 18px;
+  padding: 5px 15px;
+}
+
+.thumbnails {
+  float: left;
+  background-color: gainsboro;
+  width: 180px;
+  height: 180px;
+}
+
+.imgbg {
+  position: relative;
+  background: darkcyan;
+  margin-left: 0;
+  color: white;
+  width: 300px;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #777;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid darkcyan;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: white;
+  background-color: darkcyan;
+  line-height: 21px;
+}
+
+div.desc:hover {
+    color: black;
+    background-color: aquamarine;
+}
